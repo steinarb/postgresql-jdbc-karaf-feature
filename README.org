@@ -1,0 +1,17 @@
+* PostgreSQL karaf feature
+
+This is a maven pom that generates an apache karaf feature repository with a feature loading and setarting the PostgreSQL JDBC driver and all its dependencies.
+
+** Installing the feature in karaf
+
+Give the following commands from the karaf console:
+#+BEGIN_EXAMPLE
+  feature:repo-add mvn:no.priv.bang.karaf/postgresql-jdbc-karaf/LATEST/xml/features
+  feature:install postgresql-jdbc-karaf
+#+END_EXAMPLE
+
+** License
+
+The license is the same [[https://jdbc.postgresql.org/about/license.html][simplified BSD-2 license as the PostgreSQL driver itself]].
+
+See the LICENSE file for details.

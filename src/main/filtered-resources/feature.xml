@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.4.0" name="osgiservice.database">
+    <feature name="postgresql-jdbc-karaf" description="PostgreSQL JDBC driver karaf feature" version="${project.version}">
+        <feature prerequisite="false" dependency="false">pax-jdbc</feature>
+        <bundle start-level="80">mvn:javax.transaction/javax.transaction-api/${javax.transaction.version}</bundle>
+        <bundle start-level="80">mvn:javax.enterprise/cdi-api/${cdi.api.version}</bundle>
+        <bundle start-level="80">mvn:javax.el/javax.el-api/${el.api.version}</bundle>
+        <bundle start-level="80">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-inject/${javax.inject.version}</bundle>
+        <bundle start-level="80">mvn:javax.interceptor/javax.interceptor-api/${interceptor.api.version}</bundle>
+        <bundle start-level="80">mvn:org.postgresql/postgresql/${postgresql.version}</bundle>
+    </feature>
+</features>
