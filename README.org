@@ -2,6 +2,8 @@
 
 This is a maven pom that generates an apache karaf feature repository with a feature loading and setarting the PostgreSQL JDBC driver and all its dependencies.
 
+[[https://maven-badges.herokuapp.com/maven-central/no.priv.bang.karaf/postgresql-jdbc-karaf][file:https://maven-badges.herokuapp.com/maven-central/no.priv.bang.karaf/postgresql-jdbc-karaf/badge.svg]]
+
 ** Installing the feature in karaf
 
 Give the following commands from the karaf console:
