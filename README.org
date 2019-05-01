@@ -12,6 +12,14 @@ Give the following commands from the karaf console:
   feature:install postgresql-jdbc-karaf
 #+END_EXAMPLE
 
+** Release history
+
+It might simplify things if I'm able give the feature the same version number as the PGJDBC driver the feature pulls in an starts.  But for the moment the version numbers are different.
+
+| Release | PostgreSQL JDBC version | Comment |
+|---------+-------------------------+---------|
+|   1.0.1 |                  42.2.5 |         |
+
 ** License
 
 The license is the same [[https://jdbc.postgresql.org/about/license.html][simplified BSD-2 license as the PostgreSQL driver itself]].
