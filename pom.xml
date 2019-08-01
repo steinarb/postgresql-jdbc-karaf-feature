@@ -13,7 +13,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <postgresql.version>42.2.5</postgresql.version>
+        <postgresql.version>42.2.6</postgresql.version>
         <javax.transaction.version>1.2</javax.transaction.version>
         <cdi.api.version>2.0.SP1</cdi.api.version>
         <el.api.version>3.0.0</el.api.version>
