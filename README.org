@@ -29,9 +29,10 @@ If you have a maven project building an OSGi bundle with a karaf feature reposit
 
 It might simplify things if I'm able give the feature the same version number as the PGJDBC driver the feature pulls in an starts.  But for the moment the version numbers are different.
 
-| Release | PostgreSQL JDBC version | Comment |
-|---------+-------------------------+---------|
-|   1.0.1 |                  42.2.5 |         |
+| Release | PostgreSQL JDBC version | Comment                                                 |
+|---------+-------------------------+---------------------------------------------------------|
+|   1.1.0 |                  42.2.6 | PostgreSQL JDBC driver that survives OSGi bundle reload |
+|   1.0.1 |                  42.2.5 |                                                         |
 
 ** License
 
