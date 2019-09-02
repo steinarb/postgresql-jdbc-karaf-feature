@@ -19,7 +19,7 @@ If you have a maven project building an OSGi bundle with a karaf feature reposit
   <dependency>
       <groupId>no.priv.bang.karaf</groupId>
       <artifactId>postgresql-jdbc-karaf</artifactId>
-      <version>1.0.1</version>
+      <version>1.2.0</version>
       <type>xml</type>
       <classifier>features</classifier>
   </dependency>
@@ -29,10 +29,11 @@ If you have a maven project building an OSGi bundle with a karaf feature reposit
 
 It might simplify things if I'm able give the feature the same version number as the PGJDBC driver the feature pulls in an starts.  But for the moment the version numbers are different.
 
-| Release | PostgreSQL JDBC version | Comment                                                 |
-|---------+-------------------------+---------------------------------------------------------|
-|   1.1.0 |                  42.2.6 | PostgreSQL JDBC driver that survives OSGi bundle reload |
-|   1.0.1 |                  42.2.5 |                                                         |
+| Release | PostgreSQL JDBC version | Comment                                                                                                        |
+|---------+-------------------------+----------------------------------------------------------------------------------------------------------------|
+|   1.2.0 |                  42.2.6 | Depend on karaf built-in feature transaction-api instead of loading and starting bundles the pgjdbc depends on |
+|   1.1.0 |                  42.2.6 | PostgreSQL JDBC driver that survives OSGi bundle reload                                                        |
+|   1.0.1 |                  42.2.5 |                                                                                                                |
 
 ** License
 
